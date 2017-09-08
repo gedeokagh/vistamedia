@@ -1,0 +1,259 @@
+ /*	On Desktop
+----------------------------------------------------------------------*/
+#mobilepro {
+	font-size: 26px;
+	font-weight: bold;
+	line-height: 30px;
+	display: none;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	-o-border-radius: 2px;
+	border-radius: 2px;
+	padding: 6px 7.5px;
+	cursor: pointer;
+	color: #FFF;
+	margin: 0;
+}
+
+@media only screen and (max-width: 1177px) {
+	.sidebar .two-fourth { width: 100%; }
+	ul.room-price li { padding-bottom: 20px; }
+	ul.room-price li .small-price { top: 20px; }
+}
+/* #Tablet (Landscape)
+----------------------------------------------------------------------*/
+@media only screen and (min-width: 959px) and (max-width: 1177px) {
+	body {overflow-x: hidden}
+	.container { width: 970px; }
+	.logo { padding: 0; width: 190px;}
+	nav { width: 880px; }
+	.sf-menu a{ padding: 3px 7px; margin-right: 7px; font-size: 13px;}
+	.sf-menu li:hover ul, .sf-menu li.sfHover ul { top: 35px;}
+	.sticky { margin-top: -88px !important;}
+	.trip-form1 .normal { width: 190px; }
+	.trip-form1 .datepicker-wrapper{ width: 135px; }
+	.trip-form1 .select { width: 50px; }
+	.trip-form1 .link { width: 130px; }
+	.trip-form2 .normal { width: 270px; }
+	.trip-form2 .datepicker-wrapper{ width: 150px; }
+	.trip-form2 .select { width: 70px; }
+	.trip-form2 .link { width: 130px; padding-top: 80px; }
+	.trip-search .btn.mb { margin-top: 92px; }
+	.add-room .two-fourth { width: 85px; margin: 0 0px 10px 0; }
+	.add-room .one-fourth { width: 40px; }
+	.sidebar-module .form-control.in-toggle { width: 172px; }
+	ul.attracting-list li .left img{ width: 240px; }
+	#details-page ul.tabs { margin-top: 0px; }
+	#details-page .tab_container { margin-top: 0px; }
+	.next2, .prev2 { top: -170px; }
+	.topsortby .two-fourth { width: 21%; }
+	#list-grid .details { width: 335px; }
+	.sidebar ul.tabs li a { padding: 0 8px; }
+	#comments .three-fourth { width: 205px; }
+	.carousel-post li.post-item, .three-column li.post-item  { width: 293px; }
+	.jcarousel-container .jcarousel-prev { left: 34%; }
+	.jcarousel-container .jcarousel-next { right: 34%; }
+}
+
+
+@media only screen and (max-width: 959px) {
+	ul.attracting-list li .left img{ margin-bottom: 17px; }
+	#list-grid .product-item { height: 100%; }
+	.topsortby .one-fourth { width: 25.2%; }
+	#comments .three-fourth { width: 100%; }
+	.jcarousel-container .jcarousel-prev { left: 30%; }
+	.jcarousel-container .jcarousel-next { right: 30%; }
+}
+/* #Tablet (Portrait)
+----------------------------------------------------------------------*/
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	body {overflow-x: hidden}
+	.container { width: 750px; }
+	.slider-1 .slides li h2 { font-size: 40px !important; }
+	.logo { padding: 0; width: 180px;}
+	nav { width: 690px; }
+	.sf-menu a{ padding: 1px 3px; margin-right: 3px; font-size: 12px }
+	.sf-menu li:hover ul, .sf-menu li.sfHover ul { top: 19px;}
+	.sticky { margin-top: -86px !important;}
+	.trip-form1 .normal { width: 90px; margin-right: 10px; }
+	.trip-form1 .datepicker-wrapper{ width: 120px; margin-right: 10px; }
+	.trip-form1 .select { width: 50px; margin-right: 10px; }
+	.trip-form1 .link { width: 100px; margin-right: 10px; }
+	.trip-form2 .check-radio { width: 140px; margin-right: 10px; }
+	.trip-form2 .normal { width: 140px; margin-right: 10px; }
+	.trip-form2 .datepicker-wrapper{ width: 130px; margin-right: 10px; }
+	.trip-form2 .select { width: 65px; margin-right: 10px; }
+	.trip-form2 .link { width: 130px; padding-top: 80px; }
+	.trip-search .btn.mb { margin-top: 70px; }
+	.add-room .two-fourth { width: 93px; margin: 0 0px 10px 0;}
+	.add-room .one-fourth { width: 40px; }
+	.sidebar-module .form-control.in-toggle { width: 180px; }
+	#details-page ul.tabs li a { padding: 0 7px; }
+	ul.user-review li .left { width: 40% }
+	ul.user-review li .right { width: 60%  }
+	ul.attracting-list li .left { width: 70%; }
+	ul.attracting-list li .right { width: 30%; }
+	ul.attracting-list li .left img{ width: 275px; }
+	#details-page ul.tabs { margin-top: 0px; }
+	#details-page .tab_container { margin-top: 0px; }
+	.next2, .prev2 { top: -280px; }
+	.next2 { left: 10px; }
+	.prev2 { right: 10px; }
+	#list-grid .image { width: 468px; }
+	#list-grid .details { width: 360px; }
+	.list-summary li { padding-left: 120px; }
+	.carousel-post li.post-item, .three-column li.post-item  { width: 344px; }
+}
+
+/* #Mobile (Landscape)
+----------------------------------------------------------------------*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	#home .main-wrapper {
+    margin-top: 370px;
+    padding: 0;
+}
+	body {overflow-x: hidden}
+	.container { width: 480px; }
+	ul.room-price li { padding-bottom: 0px; }
+	ul.room-price li .small-price { top: 0px; }
+	#details-page ul.tabs { margin-top: 0px; }
+	#details-page .tab_container { margin-top: 0px; }
+	.next2, .prev2 { top: -180px; }
+	.next2 { left: 15px; }
+	.prev2 { right: 15px; }
+	#list-grid .image { width: 450px; }
+	#list-grid .details { width: 340px; }
+	.carousel-post li.post-item, .three-column li.post-item  { width: 450px; }
+	.jcarousel-container .jcarousel-prev { left: 20%; }
+	.jcarousel-container .jcarousel-next { right: 20%; }
+}
+
+
+@media only screen and (max-width: 767px) {
+	#header { position: relative; }
+	.menu-head { margin-top: 0px; }
+	.social a {margin: 0 2px;}
+	#mobilepro { display: inline; position: relative; left: 49%; top: 5px;}
+	nav { width: 450px; margin:0 ; }
+	.sf-menu { background: #bd3129 }
+	.sf-menu a { color: #FFF !important; padding: 5px 10px; border: 0; margin: 0}
+	.sf-menu a:hover { border: 0; color: #005FB8}
+	.sf-menu {width: 100%!important;display: none; margin: 0 !important }
+	.sf-menu li li, .sfHover { background: none; }
+	.sf-menu li { margin-bottom: 0px; margin-left: 0; border-bottom: 1px solid #FFF; border-top: 0;}
+	.sf-menu li:last-child { border-bottom: 0;}
+	.sf-menu.xactive { display: block !important; }
+	.sf-menu ul:before { content: ""; border-width: 0 0 0 0 !important }
+	.sf-menu > li.sfHover:before {color: #000;background: none;width: 0;height: 0px;}
+	.sf-menu li.current > a  {     color: #f9fafb !important; }
+	.sf-menu li.current li i { color: #FFF !important; }
+	.sf-menu li:hover ul, .sf-menu li.sfHover ul { padding: 0 !important }
+	ul.sf-menu li:hover ul, ul.sf-menu li.sfHover ul, ul.sf-menu li ul { margin-top: 4px; margin-bottom: 3px }
+	.sf-menu li { float: none !important; display: block !important; width: 100% !important; }
+	.sf-menu li a, .sf-menu ul li { float: none !important; border: 0; }
+	.sf-menu li:hover ul, .sf-menu li.sfHover ul {box-shadow: none;-webkit-animation: initial;animation: initial;-moz-animation: initial;-o-animation: initial; }
+	.sf-menu li li {left: 10px;border-top: 0;border-bottom: 0;}
+	.sf-menu ul { position:static !important; display: none !important; width: 100%; background: none; -webkit-box-shadow: none;
+    box-shadow: none; }
+	.xpopdrop ul {display: block !important; visibility: inherit !important }
+	.sf-menu ul li:hover, .sf-menu li li:hover > a, .sf-menu li li > a:hover, .sf-menu li li.current > a {background: none}
+	.sf-menu li li a { padding: 5px 10px; }
+	.sf-menu ul , .sf-menu ul ul, .sf-menu ul ul ul { margin: 0;padding-bottom: 0px;-webkit-box-shadow: none;
+    box-shadow: none; }
+	.small-about { border-right: 0; }
+	.rs-mb { border-bottom: 1px solid #DEE3E4; margin-bottom: 20px; padding-bottom: 15px; }
+	.little-head .little-menu { position: absolute; top: -95px; left: 20%; }
+	.little-head .call-us { text-align: center; margin: 10px 0 }
+	.logo { margin: 30px auto 0; }
+	.search-toggle { margin-top: -30px;}
+	.section-title { width: 50%; }
+	.section-title span { left: 44%; }
+	.trip-search { padding: 0; margin: 0; margin-top: 100px; }
+	.trip-form1 .normal { width: 185px; margin-right: 10px; }
+	.trip-form1 .datepicker-wrapper{ width: 120px; margin-right: 10px; }
+	.trip-form1 .select { width: 80px; margin-right: 10px; }
+	.trip-form1 .link { width: 175px; }
+	.trip-form2 .check-radio { width: 130px; margin-right: 10px; border-right: 0; }
+	.trip-form2 .normal { width: 110px; margin-right: 10px; }
+	.trip-form2 .datepicker-wrapper{ width: 115px; margin-right: 10px; }
+	.trip-form2 .select { width: 60px; margin-right: 0px; }
+	.trip-form2 .link { width: 120px; padding-top: 0px; margin-top: -75px; }
+	.no-rs-mr { margin-right: 0 !important }
+	.trip-search .tab_content { padding: 0; margin-left: -5px;  margin-right: -5px;}
+	.trip-search ul.tabs { margin: 0 15px; }
+	.trip-search ul.tabs li a { padding: 0 7px;border-top: 1px solid #1663AB; border-bottom: 1px solid #1663AB; }
+	.trip-search ul.tabs li:first-child a {border-left:1px solid #1663AB;border-top-left-radius:8px;border-bottom-left-radius:8px; padding-left: 10px;}
+	.trip-search ul.tabs li:last-child a { border-right: 1px solid #1663AB;border-top-right-radius:8px;border-bottom-right-radius:8px; padding-right: 10px; }
+	.sidebar .full-fourth { width: 160px; float: left; margin-right: 10px; }
+	.sidebar .two-fourth { width: 191px; }
+	.sidebar-module .form-control.in-toggle { width: 100%; }
+	.rs-border-top { border-top: 1px solid #DEE2E4; margin-top: 50px; padding-top: 20px; }
+	#details-page ul.tabs li a { padding: 0 6px; }
+	ul.user-review li .left { width: 40% }
+	ul.user-review li .right { width: 60%  }
+	ul.attracting-list li .left { width: 75%; }
+	ul.attracting-list li .right { width: 25%; }
+	ul.attracting-list li .left img{ width: 285px; }
+	.v-card  .left { border-right: 0; padding-right: 0; margin-bottom: 40px; margin-right: 0px; }
+	.v-card  .right { padding-left: 0; }
+}
+
+/*  #Mobile (Portrait) 320px
+----------------------------------------------------------------------*/
+@media only screen and (min-width: 100px) and (max-width: 479px) {
+	#home .main-wrapper {
+    margin-top: 200px;
+    padding: 0;
+}
+	body {overflow-x: hidden}
+	.container { width: 320px; }
+	nav { width: 290px; margin: 0}
+	#mobilepro { left: 42%; }
+	.social a {margin: 0 2px}
+	.social-head {margin: 0 10px 0 0; }
+	.little-head .little-menu { left: 6%; }
+	.little-head .call-us { font-size: 18px; }
+	.section-title { width: 80%; }
+	.section-title span { left: 44%; }
+	.trip-search { margin-top: 0px; }
+	.trip-form1 .normal { width: 285px; margin-right: 0; }
+	.trip-form1 .datepicker-wrapper{ width: 136px; margin-right: 10px; }
+	.trip-form1 .select { width: 55px; margin-right: 5px; }
+	.trip-form1 .link { width: 103px; }
+	.trip-form2 .check-radio { width: 290px; margin-right: 0px; margin-top: -10px }
+	.trip-form2 .check-radio ul { padding: 0; margin-bottom: -10px;  }
+	.trip-form2 .check-radio ul li { display: inline; }
+	.trip-form2 .normal { width: 160px; margin-right: 10px; }
+	.trip-form2 .datepicker-wrapper{ width: 115px; margin-right: 0px; }
+	.trip-form2 .select { width: 150px; margin-right: 10px; }
+	.trip-form2 .select .col-xs-12  { width: 90px; float: left; }
+	.trip-form2 .select .col-xs-12 div{ width: 80px; }
+	.trip-form2 .link { width: 120px; padding-top: 0px; margin-top: 8px; }
+	.sidebar .full-fourth { width: 250px; margin-right: 0; }
+	.sidebar .two-fourth { width: 115px; }
+	.rs-border-top { margin-top: 30px; }
+	#details-page ul.tabs li a { padding: 0 10px; }
+	#details-page ul.tabs li a.rs-no-br { border-right: 0; }
+	#details-page ul.tabs li.rs-bt { width: 100%; border-top: 1px solid #1663AB }
+	ul.user-review li .left { width: 100%; border-right: 0; border-bottom: 1px dashed #DEE2E4; padding-bottom: 10px; margin-bottom: 10px }
+	ul.user-review li .right { width: 100%; padding-left: 10px; text-align: center;}
+	ul.attracting-list li .left { width: 60%; }
+	ul.attracting-list li .right { width: 40%; }
+	ul.attracting-list li .left img{ width: 130px; }
+	ul.attracting-list li .left .date { display: block; }
+	#details-page ul.tabs { margin-top: 0px; }
+	#details-page .tab_container { margin-top: 0px; }
+	#list-grid .image { width: 290px; }
+	#list-grid .details{ width: 280px; }
+	#list-grid .bottom { width: 290px; border-left: 0; border-top: 1px solid #DEE2E4; }
+	#list-grid .large-price { padding: 5px 32px; width: 70%; border-bottom: 0; border-right: 1px solid #DEE2E4; }
+	.topsortby .two-fourth { width: 41%; }
+	.topsortby .one-fourth { width: 27%; }
+	.v-card .inner { padding: 40px 30px; }
+	.list-summary li { padding-left: 120px; }
+	.blog-meta .details span.date, .blog-meta .details span.cat { display: block; }
+	.carousel-post li.post-item, .three-column li.post-item  { width: 290px; }
+	.jcarousel-container .jcarousel-prev { left: 5%; }
+	.jcarousel-container .jcarousel-next { right: 5%; }
+}

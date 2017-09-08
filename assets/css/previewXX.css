@@ -1,0 +1,101 @@
+@media(min-width:1200px){
+
+	/** header **/
+	#top-head{
+		width:100%;
+		background:#700604;
+	float:left;
+	}
+	#top-body{
+		width:800px;
+		margin: 0px auto;
+		background-image:url(topbg.png);
+		background-repeat:no-repeat;
+	}
+	#top-body img{
+		  position: relative;
+  margin: 15px 15px 15px 35px;
+  padding: 2px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 0 50px rgba(255, 255, 255, 0.5), 0 1px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 35px rgba(255, 255, 255, 0.5), 0 5px 7px rgba(0, 0, 0, 0.3);
+
+	}
+	
+	#title{
+		width:100%;
+		background:#840e0d;
+			float:left;
+	}
+	#title-body{
+		width:800px;
+		margin: 0px auto;
+	}
+	#title-body h2{
+		margin-top:0px;
+		margin-bottom:0px;
+		color:#FFFFFF;
+	}
+	/** header **/
+	#head{
+		width:100%;
+		background:#b81010;
+			float:left;
+	}
+	#headers{
+		width:800px;
+		margin: 0px auto;
+	}
+	
+	
+	#ket{
+		width:100%;
+		background:#fff;
+			float:left;
+	}
+	#ket-body{
+		width:800px;
+		margin: 0px auto;
+	}
+	#conts{
+	}
+	#conts h5{
+	font-weight:bold;
+	font-size:14px;
+	text-decoration:underline;
+	margin-bottom:2px;
+	}
+	#conts p{
+		font-size:12px;
+	}
+	#keterangan{
+		width:100%;
+		background:#700604;
+		float:left;
+		padding:10px;
+	}
+	#nket-body{
+		width:800px;
+		margin: 0px auto;
+	
+	}
+	#nket-body h5{
+		margin-top:0px;
+		margin-bottom:0px;
+		color:#FFFFFF;
+		font-weight:bold;
+		text-decoration:underline;
+	}
+	#nket-body p{
+		margin-top:0px;
+		margin-bottom:0px;
+		color:#FFFFFF;
+	}
+	.half{
+	width:50%;
+	margin:0px;
+	padding:0px;
+	float:left;
+	
+	}
+}
